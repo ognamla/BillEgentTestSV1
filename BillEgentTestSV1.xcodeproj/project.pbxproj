@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3A0008D61EE7FF68002F7D99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0008D51EE7FF68002F7D99 /* AppDelegate.swift */; };
-		3A0008D81EE7FF68002F7D99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0008D71EE7FF68002F7D99 /* ViewController.swift */; };
+		3A0008D81EE7FF68002F7D99 /* BarCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0008D71EE7FF68002F7D99 /* BarCodeViewController.swift */; };
 		3A0008DB1EE7FF68002F7D99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0008D91EE7FF68002F7D99 /* Main.storyboard */; };
 		3A0008DD1EE7FF68002F7D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0008DC1EE7FF68002F7D99 /* Assets.xcassets */; };
 		3A0008E01EE7FF68002F7D99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0008DE1EE7FF68002F7D99 /* LaunchScreen.storyboard */; };
 		3A0008EB1EE7FF68002F7D99 /* BillEgentTestSV1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0008EA1EE7FF68002F7D99 /* BillEgentTestSV1Tests.swift */; };
 		3A0008F61EE7FF68002F7D99 /* BillEgentTestSV1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0008F51EE7FF68002F7D99 /* BillEgentTestSV1UITests.swift */; };
+		3A0009041EE7FF85002F7D99 /* Barcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0009031EE7FF85002F7D99 /* Barcode.swift */; };
+		3A0009081EE8EF99002F7D99 /* BankTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0009071EE8EF99002F7D99 /* BankTableViewController.swift */; };
+		3A00090A1EE8EFBC002F7D99 /* BankTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0009091EE8EFBC002F7D99 /* BankTableViewCell.swift */; };
+		770DCCCF0DAC0A92924342BD /* Pods_BillEgentTestSV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F092614D4AD395D9C9776B7 /* Pods_BillEgentTestSV1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0621B55CD3F41449B113B64F /* Pods-BillEgentTestSV1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BillEgentTestSV1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BillEgentTestSV1/Pods-BillEgentTestSV1.debug.xcconfig"; sourceTree = "<group>"; };
 		3A0008D21EE7FF68002F7D99 /* BillEgentTestSV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillEgentTestSV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0008D51EE7FF68002F7D99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A0008D71EE7FF68002F7D99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A0008D71EE7FF68002F7D99 /* BarCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeViewController.swift; sourceTree = "<group>"; };
 		3A0008DA1EE7FF68002F7D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A0008DC1EE7FF68002F7D99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A0008DF1EE7FF68002F7D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		3A0008F11EE7FF68002F7D99 /* BillEgentTestSV1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillEgentTestSV1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0008F51EE7FF68002F7D99 /* BillEgentTestSV1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillEgentTestSV1UITests.swift; sourceTree = "<group>"; };
 		3A0008F71EE7FF68002F7D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A0009031EE7FF85002F7D99 /* Barcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Barcode.swift; sourceTree = "<group>"; };
+		3A0009071EE8EF99002F7D99 /* BankTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankTableViewController.swift; sourceTree = "<group>"; };
+		3A0009091EE8EFBC002F7D99 /* BankTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankTableViewCell.swift; sourceTree = "<group>"; };
+		8F092614D4AD395D9C9776B7 /* Pods_BillEgentTestSV1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BillEgentTestSV1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8A7CEE5F000A7BBE10834A /* Pods-BillEgentTestSV1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BillEgentTestSV1.release.xcconfig"; path = "Pods/Target Support Files/Pods-BillEgentTestSV1/Pods-BillEgentTestSV1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				770DCCCF0DAC0A92924342BD /* Pods_BillEgentTestSV1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,8 @@
 				3A0008E91EE7FF68002F7D99 /* BillEgentTestSV1Tests */,
 				3A0008F41EE7FF68002F7D99 /* BillEgentTestSV1UITests */,
 				3A0008D31EE7FF68002F7D99 /* Products */,
+				7DE197AD661E2C73D7E9994C /* Pods */,
+				95606BE29EB4308FB2691B1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +110,11 @@
 		3A0008D41EE7FF68002F7D99 /* BillEgentTestSV1 */ = {
 			isa = PBXGroup;
 			children = (
+				3A0009031EE7FF85002F7D99 /* Barcode.swift */,
 				3A0008D51EE7FF68002F7D99 /* AppDelegate.swift */,
-				3A0008D71EE7FF68002F7D99 /* ViewController.swift */,
+				3A0009071EE8EF99002F7D99 /* BankTableViewController.swift */,
+				3A0008D71EE7FF68002F7D99 /* BarCodeViewController.swift */,
+				3A0009091EE8EFBC002F7D99 /* BankTableViewCell.swift */,
 				3A0008D91EE7FF68002F7D99 /* Main.storyboard */,
 				3A0008DC1EE7FF68002F7D99 /* Assets.xcassets */,
 				3A0008DE1EE7FF68002F7D99 /* LaunchScreen.storyboard */,
@@ -125,6 +141,23 @@
 			path = BillEgentTestSV1UITests;
 			sourceTree = "<group>";
 		};
+		7DE197AD661E2C73D7E9994C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0621B55CD3F41449B113B64F /* Pods-BillEgentTestSV1.debug.xcconfig */,
+				BA8A7CEE5F000A7BBE10834A /* Pods-BillEgentTestSV1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		95606BE29EB4308FB2691B1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F092614D4AD395D9C9776B7 /* Pods_BillEgentTestSV1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A0008FA1EE7FF68002F7D99 /* Build configuration list for PBXNativeTarget "BillEgentTestSV1" */;
 			buildPhases = (
+				9E801E0D9A48B8A83A9C48BE /* [CP] Check Pods Manifest.lock */,
 				3A0008CE1EE7FF68002F7D99 /* Sources */,
 				3A0008CF1EE7FF68002F7D99 /* Frameworks */,
 				3A0008D01EE7FF68002F7D99 /* Resources */,
+				AFBF74EF04E1E4B19B49E422 /* [CP] Embed Pods Frameworks */,
+				4B1C144952FA1D4315A775EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +293,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B1C144952FA1D4315A775EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BillEgentTestSV1/Pods-BillEgentTestSV1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E801E0D9A48B8A83A9C48BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFBF74EF04E1E4B19B49E422 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BillEgentTestSV1/Pods-BillEgentTestSV1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3A0008CE1EE7FF68002F7D99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A0008D81EE7FF68002F7D99 /* ViewController.swift in Sources */,
+				3A0008D81EE7FF68002F7D99 /* BarCodeViewController.swift in Sources */,
 				3A0008D61EE7FF68002F7D99 /* AppDelegate.swift in Sources */,
+				3A0009041EE7FF85002F7D99 /* Barcode.swift in Sources */,
+				3A00090A1EE8EFBC002F7D99 /* BankTableViewCell.swift in Sources */,
+				3A0009081EE8EF99002F7D99 /* BankTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +502,7 @@
 		};
 		3A0008FB1EE7FF68002F7D99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0621B55CD3F41449B113B64F /* Pods-BillEgentTestSV1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z67QTL7WJ6;
@@ -428,6 +516,7 @@
 		};
 		3A0008FC1EE7FF68002F7D99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA8A7CEE5F000A7BBE10834A /* Pods-BillEgentTestSV1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z67QTL7WJ6;
@@ -516,6 +605,7 @@
 				3A0008FC1EE7FF68002F7D99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A0008FD1EE7FF68002F7D99 /* Build configuration list for PBXNativeTarget "BillEgentTestSV1Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +614,7 @@
 				3A0008FF1EE7FF68002F7D99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A0009001EE7FF68002F7D99 /* Build configuration list for PBXNativeTarget "BillEgentTestSV1UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +623,7 @@
 				3A0009021EE7FF68002F7D99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_BillEgentTestSV1 {
+  umbrella header "Pods-BillEgentTestSV1-umbrella.h"
+
+  export *
+  module * { export * }
+}
